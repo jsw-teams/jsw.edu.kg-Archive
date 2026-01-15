@@ -1,0 +1,6 @@
+/assets/*      /assets/:splat     200
+/favicon.svg   /favicon.svg       200
+/og.svg        /og.svg            200
+/robots.txt    /robots.txt        200
+/sitemap.xml   /sitemap.xml       200
+/*             /                  301

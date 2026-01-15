@@ -1,0 +1,52 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- 外圈 - 传统大学校徽风格 -->
+  <circle cx="150" cy="150" r="140" fill="#2c5f7d" stroke="#d4af37" stroke-width="4"/>
+  <circle cx="150" cy="150" r="130" fill="none" stroke="#d4af37" stroke-width="2"/>
+  
+  <!-- 中心图案 - 仓库/杂货铺元素 -->
+  <!-- 简化的仓库轮廓 -->
+  <path d="M 80 120 L 150 80 L 220 120 L 220 180 L 80 180 Z" fill="#f4e4c1" stroke="#8b6914" stroke-width="3"/>
+  
+  <!-- 屋顶 -->
+  <path d="M 70 120 L 150 70 L 230 120 L 220 120 L 150 80 L 80 120 Z" fill="#d4af37" stroke="#8b6914" stroke-width="2"/>
+  
+  <!-- 门（故意画得歪斜，显示不正规） -->
+  <rect x="130" y="140" width="40" height="40" fill="#8b6914" stroke="#654321" stroke-width="2" transform="rotate(-2 150 160)"/>
+  
+  <!-- 窗户（也是歪的） -->
+  <rect x="90" y="135" width="25" height="25" fill="#87ceeb" stroke="#654321" stroke-width="2" transform="rotate(3 102 147)"/>
+  <rect x="185" y="135" width="25" height="25" fill="#87ceeb" stroke="#654321" stroke-width="2" transform="rotate(-3 197 147)"/>
+  
+  <!-- 杂乱的货物剪影（在仓库外面堆着） -->
+  <rect x="65" y="165" width="15" height="15" fill="#8b4513" opacity="0.7"/>
+  <rect x="220" y="168" width="12" height="12" fill="#8b4513" opacity="0.7" transform="rotate(15 226 174)"/>
+  <circle cx="73" cy="185" r="6" fill="#cd853f" opacity="0.7"/>
+  
+  <!-- 上方文字弧线 - 英文 -->
+  <path id="topCurve" d="M 50 150 A 100 100 0 0 1 250 150" fill="none"/>
+  <text font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#d4af37" letter-spacing="2">
+    <textPath href="#topCurve" startOffset="50%" text-anchor="middle">
+      JUST SPARE WAREHOUSE
+    </textPath>
+  </text>
+  
+  <!-- 下方文字弧线 - 中文 -->
+  <path id="bottomCurve" d="M 250 150 A 100 100 0 0 1 50 150" fill="none"/>
+  <text font-family="SimSun, STSong, serif" font-size="22" font-weight="bold" fill="#d4af37" letter-spacing="4">
+    <textPath href="#bottomCurve" startOffset="50%" text-anchor="middle">
+      杂货铺大学
+    </textPath>
+  </text>
+  
+  <!-- 中心缩写 JSW（略显随意的字体） -->
+  <text x="150" y="215" font-family="Impact, Arial Black, sans-serif" font-size="32" font-weight="bold" fill="#d4af37" text-anchor="middle" transform="rotate(-3 150 215)">JSW</text>
+  
+  <!-- 建校年份（搞笑用） -->
+  <text x="150" y="235" font-family="Times New Roman, serif" font-size="12" fill="#d4af37" text-anchor="middle">EST. 2025</text>
+  
+  <!-- 装饰性星星（略显杂乱） -->
+  <circle cx="40" cy="80" r="3" fill="#d4af37" opacity="0.6"/>
+  <circle cx="260" cy="85" r="3" fill="#d4af37" opacity="0.6"/>
+  <circle cx="45" cy="220" r="2.5" fill="#d4af37" opacity="0.6"/>
+  <circle cx="255" cy="215" r="2.5" fill="#d4af37" opacity="0.6"/>
+</svg>
